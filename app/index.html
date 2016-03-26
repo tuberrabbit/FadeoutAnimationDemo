@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dedao app css</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./animate.css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <img id="img3" class="img-three" draggable="false">
+        <img id="img2" class="img-two" draggable="false">
+        <img id="img1" class="img-one" draggable="true">
+    </div>
+    <div id="drop-area-top" class="drop-area-top" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    <div id="drop-area-right" class="drop-area-right" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    <div id="drop-area-bottom" class="drop-area-bottom" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    <div id="drop-area-left" class="drop-area-left" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+</div>
+</body>
+<script src="./app.js"></script>
+</html>
